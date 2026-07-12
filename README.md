@@ -134,3 +134,9 @@ A small set of the seminal work underneath agentic coding. Background, not the w
 ## Contributing
 See [CONTRIBUTING.md](CONTRIBUTING.md). Open a pull request with resources that clear the bar, and the
 maintainer will review and merge them.
+
+## How this list is maintained
+This list is human-fronted, and partly maintained by the discipline it documents. Each week a curation agent
+(the [weekly-curator skill](.claude/skills/weekly-curator/SKILL.md)) drafts a pull request: it scans for
+newly-published, in-scope resources and checks the existing links for rot. The maintainer reviews and merges
+every change by hand, so nothing lands without a human. The agent does the legwork; the judgment stays human.
