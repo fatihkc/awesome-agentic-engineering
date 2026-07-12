@@ -1,6 +1,4 @@
-# Awesome Agentic Engineering
-
-[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+# Awesome Agentic Engineering [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
 > A curated map of the best resources for learning agentic engineering and the AI-native SDLC.
 
@@ -9,7 +7,7 @@ the development lifecycle: the engineer sets the goal, delegates to agents, and 
 they produce. This list collects the highest-signal resources for learning it, from coding agents and
 harnesses to loop and context engineering, spec-driven development, evals, and real production case studies.
 It is maintained by Fatih Koc (https://fatihkoc.net), with a bias toward resources that hold up in real
-engineering practice rather than hype. Contributions are welcome; see [CONTRIBUTING.md](CONTRIBUTING.md).
+engineering practice rather than hype. Contributions are welcome.
 
 ## Contents
 - [Start here](#start-here)
@@ -25,15 +23,11 @@ engineering practice rather than hype. Contributions are welcome; see [CONTRIBUT
 - [Communities](#communities)
 
 ## Start here
-A short on-ramp: read the framing, learn to direct one agent well, then see it running in production.
-- [Software Is Changing (Again)](https://www.youtube.com/watch?v=LCEmiRjPEtQ) - Karpathy's keynote on the Software 3.0 shift and choosing autonomy levels when delegating to AI.
-- [Building Effective Agents](https://www.anthropic.com/research/building-effective-agents) - Anthropic's guide to the vocabulary: workflows vs agents, and the composable patterns.
-- [Claude Code Best Practices](https://www.anthropic.com/engineering/claude-code-best-practices) - How to actually direct a coding agent: workflows, context files, permissions, patterns.
-- [12-Factor Agents](https://github.com/humanlayer/12-factor-agents) - Twelve principles for reliable, production-grade LLM software.
-- [Designing agentic loops](https://simonwillison.net/2025/Sep/30/designing-agentic-loops/) - Loop engineering: goals, tools, and safety constraints so an agent can iterate toward a solution.
-- [No Vibes Allowed](https://www.youtube.com/watch?v=rmvDxxNubIg) - The Research, Plan, Implement workflow for getting agents to work in complex codebases.
-- [Spec-Driven Development with Coding Agents](https://www.deeplearning.ai/courses/spec-driven-development-with-coding-agents) - A hands-on course on the plan, implement, verify workflow with agents.
-- [Claude Code](https://claude.com/product/claude-code) - A capable coding agent to start practicing with today.
+New to agentic engineering? A short path through the sections below. Begin with the framing in Foundations
+(Karpathy's "Software Is Changing (Again)" and Anthropic's "Building Effective Agents"). Learn to direct one
+agent well with "Claude Code Best Practices" and "Designing agentic loops" in Essays and writing, plus the
+Spec-Driven Development course. Then practice with a coding agent such as Claude Code from Coding agents and
+tools, and see the discipline running at scale in Case studies and in practice.
 
 ## Foundations
 A small set of the seminal work underneath agentic coding. Background, not the whole research pile.
@@ -44,10 +38,10 @@ A small set of the seminal work underneath agentic coding. Background, not the w
 - [SWE-agent: Agent-Computer Interfaces Enable Automated Software Engineering](https://arxiv.org/abs/2405.15793) - Shows a purpose-built agent-computer interface for navigating repos, editing, and running tests sharply improves performance. Yang et al. (2024).
 
 ## Coding agents and tools
-- [Claude Code](https://claude.com/product/claude-code) - Anthropic's agentic coding tool that runs in the terminal, IDE, and CI, understands a codebase, and executes edits, tests, and git workflows.
+- [Claude Code](https://claude.com/product/claude-code) - Anthropic's agentic coding tool that runs in the terminal, IDE, and CI, understands a codebase, and executes edits, tests, and Git workflows.
 - [OpenAI Codex CLI](https://github.com/openai/codex) - Open-source lightweight coding agent that runs locally in the terminal with sandboxed execution. By OpenAI.
 - [Cursor](https://cursor.com/) - AI code editor and agent for building software across desktop, CLI, and mobile. By Anysphere.
-- [Aider](https://github.com/Aider-AI/aider) - Open-source terminal pair-programming agent that edits code in a local git repository using an LLM of choice.
+- [Aider](https://github.com/Aider-AI/aider) - Open-source terminal pair-programming agent that edits code in a local Git repository using an LLM of choice.
 - [Cline](https://github.com/cline/cline) - Open-source autonomous coding agent available as an IDE extension, CLI, and SDK.
 - [Sourcegraph Amp](https://ampcode.com/) - Agentic coding tool with terminal, IDE, and web interfaces plus sub-agents for code review and library research.
 - [Factory (Droids)](https://factory.ai/) - Platform of role-specialized coding agents (Droids) that automate tasks across the software development lifecycle.
@@ -71,7 +65,7 @@ A small set of the seminal work underneath agentic coding. Background, not the w
 - [Claude Code: A Highly Agentic Coding Assistant](https://www.deeplearning.ai/courses/claude-code-a-highly-agentic-coding-assistant) - Free short course on Claude Code best practices: codebase exploration, planning, testing, refactoring, and MCP. (DeepLearning.AI and Anthropic)
 - [Spec-Driven Development with Coding Agents](https://www.deeplearning.ai/courses/spec-driven-development-with-coding-agents) - Writing project constitutions and feature specs to guide agents through a plan, implement, verify workflow. (DeepLearning.AI and JetBrains)
 - [Claude Code in Action](https://anthropic.skilljar.com/claude-code-in-action) - Free course on integrating Claude Code into a workflow: tools, context, plan mode, custom commands, hooks, SDK, and MCP. (Anthropic Academy)
-- [Claude Code: Software Engineering with Generative AI Agents](https://www.coursera.org/learn/claude-code) - Orchestrating Claude Code across git worktrees with CLAUDE.md context, reusable commands, subagents, and QA patterns. By Jules White (Vanderbilt, Coursera).
+- [Claude Code: Software Engineering with Generative AI Agents](https://www.coursera.org/learn/claude-code) - Orchestrating Claude Code across Git worktrees with CLAUDE.md context, reusable commands, subagents, and QA patterns. By Jules White (Vanderbilt, Coursera).
 - [Learn Cursor](https://cursor.com/learn) - Cursor's official tutorials on AI foundations, coding with the agent, and reviewing and testing agent-generated code.
 - [Anthropic Academy](https://anthropic.skilljar.com/) - Free self-paced catalog including Claude Code 101, Introduction to Subagents, and Introduction to MCP.
 
@@ -136,6 +130,3 @@ A small set of the seminal work underneath agentic coding. Background, not the w
 ## Contributing
 See [CONTRIBUTING.md](CONTRIBUTING.md). Open a pull request with resources that clear the bar, and the
 maintainer will review and merge them.
-
-## License
-[CC0 1.0](LICENSE). To the extent possible under law, the maintainer has waived all copyright to this list.
