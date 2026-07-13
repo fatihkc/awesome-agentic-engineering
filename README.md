@@ -25,7 +25,7 @@ engineering practice rather than hype. Contributions are welcome.
 ## Start here
 A short on-ramp: read the framing, learn to direct one agent well, then see it running in production.
 - [Software Is Changing (Again)](https://www.youtube.com/watch?v=LCEmiRjPEtQ) - Karpathy's keynote on the Software 3.0 shift and choosing autonomy levels when delegating to AI.
-- [Building Effective Agents](https://www.anthropic.com/research/building-effective-agents) - Anthropic's guide to the vocabulary: workflows vs agents, and the composable patterns.
+- [Building Effective Agents](https://www.anthropic.com/engineering/building-effective-agents) - Anthropic's guide to the vocabulary: workflows vs agents, and the composable patterns.
 - [Claude Code Best Practices](https://www.anthropic.com/engineering/claude-code-best-practices) - How to actually direct a coding agent: workflows, context files, permissions, patterns.
 - [12-Factor Agents](https://github.com/humanlayer/12-factor-agents) - Twelve principles for reliable, production-grade LLM software.
 - [Designing agentic loops](https://simonwillison.net/2025/Sep/30/designing-agentic-loops/) - Loop engineering: goals, tools, and safety constraints so an agent can iterate toward a solution.
@@ -36,7 +36,7 @@ A short on-ramp: read the framing, learn to direct one agent well, then see it r
 ## Foundations
 A small set of the seminal work underneath agentic coding. Background, not the whole research pile.
 - [Software Is Changing (Again)](https://www.youtube.com/watch?v=LCEmiRjPEtQ) - Keynote framing the Software 3.0 shift and how to choose autonomy levels when delegating to AI. By Andrej Karpathy.
-- [Building Effective Agents](https://www.anthropic.com/research/building-effective-agents) - Distinguishes workflows from agents and catalogues composable patterns (prompt chaining, routing, orchestrator-workers). By Anthropic.
+- [Building Effective Agents](https://www.anthropic.com/engineering/building-effective-agents) - Distinguishes workflows from agents and catalogues composable patterns (prompt chaining, routing, orchestrator-workers). By Anthropic.
 - [ReAct: Synergizing Reasoning and Acting in Language Models](https://arxiv.org/abs/2210.03629) - The interleaved reason-and-act loop where a model alternates thought traces with tool actions, the primitive under most coding agents. Yao et al. (2022).
 - [SWE-bench: Can Language Models Resolve Real-World GitHub Issues?](https://arxiv.org/abs/2310.06770) - The benchmark of 2,294 real GitHub issues that anchors how coding-agent progress is measured. Jimenez et al. (2023).
 - [SWE-agent: Agent-Computer Interfaces Enable Automated Software Engineering](https://arxiv.org/abs/2405.15793) - Shows a purpose-built agent-computer interface for navigating repos, editing, and running tests sharply improves performance. Yang et al. (2024).
@@ -55,6 +55,7 @@ A small set of the seminal work underneath agentic coding. Background, not the w
 - [Model Context Protocol](https://modelcontextprotocol.io/) - Open standard for connecting coding agents to external tools, data, and workflows. By Anthropic.
 - [Terminal-Bench](https://www.tbench.ai/) - Benchmark and Harbor harness measuring agents on realistic command-line tasks, with adapters for Claude Code and Codex CLI. By Stanford and the Laude Institute.
 - [CodeRabbit](https://www.coderabbit.ai/) - AI code review tool that reviews pull requests and works in the IDE and CLI.
+- [Spec Kit](https://github.com/github/spec-kit) - Open-source toolkit of slash commands and templates for spec-driven development, compatible with Claude Code and 30-plus other coding agents. By GitHub.
 
 ## Books
 - [AI-Assisted Programming](https://www.amazon.com/AI-Assisted-Programming-Planning-Testing-Deployment/dp/1098164563) - Using AI dev tools across the lifecycle: requirements, planning, design, coding, debugging, testing, deployment. By Tom Taulli (O'Reilly).
@@ -103,6 +104,7 @@ A small set of the seminal work underneath agentic coding. Background, not the w
 - [Ralph Wiggum as a Software Engineer](https://ghuntley.com/ralph/) - The Ralph technique: running a coding agent in a bash loop that repeatedly feeds one prompt, with progress persisted to files and git. By Geoffrey Huntley.
 - [Advanced Context Engineering for Coding Agents](https://github.com/humanlayer/advanced-context-engineering-for-coding-agents/blob/main/ace-fca.md) - Intentional compaction and a research, plan, implement workflow for coding agents in large legacy codebases. By Dex Horthy.
 - [Not All AI-Assisted Programming Is Vibe Coding](https://simonwillison.net/2025/Mar/19/vibe-coding/) - Distinguishes unreviewed vibe coding from professional AI-assisted engineering where you review, test, and can explain the code. By Simon Willison.
+- [Better Models: Worse Tools](https://lucumr.pocoo.org/2026/7/4/better-models-worse-tools/) - A field report on newer Claude models regressing on structured tool-call arguments, and what that implies about the fragility of coding agent harnesses. By Armin Ronacher.
 
 ## Videos and talks
 - [Claude Code and the Evolution of Agentic Coding](https://www.youtube.com/watch?v=Lue8K2jqfKk) - How coding agents differ from autocomplete and how agentic coding workflows are evolving. By Boris Cherny (Anthropic).
@@ -121,13 +123,15 @@ A small set of the seminal work underneath agentic coding. Background, not the w
 - [Shipping at Inference Speed](https://steipete.me/posts/2025/shipping-at-inference-speed) - A workflow shipping code the author largely does not read: model choice, context limits, and running three to eight parallel projects. By Peter Steinberger.
 - [A Grounded Take on Agentic Coding for Production](https://iximiuz.com/en/posts/grounded-take-on-agentic-coding/) - Generating over 50,000 lines of mostly AI-written code in a month: task decomposition, domain knowledge, and verification through integration tests. By Ivan Velichko.
 - [Agentic Coding: Things That Didn't Work](https://lucumr.pocoo.org/2025/7/30/things-that-didnt-work/) - An honest post-mortem of abandoned techniques (slash commands, hooks, subagent parallelization) and why. By Armin Ronacher.
+- [Benchmarking Coding Agents on Databricks' Multi-Million Line Codebase](https://www.databricks.com/blog/benchmarking-coding-agents-databricks-multi-million-line-codebase) - An internal benchmark of coding agent models and harnesses against real engineering tasks on a large production codebase, comparing cost against success rate. By Databricks.
+- [Old and New Apps, via Modern Coding Agents](https://terrytao.wordpress.com/2026/07/11/old-and-new-apps-via-modern-coding-agents/) - A mathematician uses a coding agent to port decades-old Java applets to JavaScript, which surfaces bugs in the original code, then builds a new visualization tool he had abandoned years earlier. By Terence Tao.
 - [devopsstart](https://devopsstart.com) - A DevOps learning site written and operated by an autonomous agentic content pipeline, run by this list's maintainer. By Fatih Koc.
 
 ## Communities
 - [Cursor Community Forum](https://forum.cursor.com/) - Official forum for the Cursor coding agent: agent workflows, model comparisons, and rules configuration.
 - [Latent Space Discord](https://www.latent.space/p/community) - AI engineering community with channels for agents, evals, and coding tools, plus a weekly paper club.
 - [Claude Code Builders](https://claude-world.com/community/) - Community for Claude Code users with a Discord, weekly cowork sessions, and monthly tech talks.
-- [Aider Discord](https://aider.chat/) - Community for the Aider CLI pair-programming agent where users share configurations, model choices, and workflows.
+- [Aider Discord](https://discord.com/invite/Y7X7bhMQFV) - Community for the Aider CLI pair-programming agent where users share configurations, model choices, and workflows.
 - [r/ClaudeAI](https://www.reddit.com/r/ClaudeAI/) - Subreddit on Claude and Claude Code: agentic coding workflows, configurations, and results.
 - [r/ChatGPTCoding](https://www.reddit.com/r/ChatGPTCoding/) - Tool-agnostic subreddit for AI-assisted and agentic coding (Claude Code, Cursor, Aider, and more).
 
