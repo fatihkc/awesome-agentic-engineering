@@ -42,6 +42,7 @@ A small set of the seminal work underneath agentic coding. Background, not the w
 - [SWE-agent: Agent-Computer Interfaces Enable Automated Software Engineering](https://arxiv.org/abs/2405.15793) - Shows a purpose-built agent-computer interface for navigating repos, editing, and running tests sharply improves performance. Yang et al. (2024).
 
 ## Coding agents and tools
+- [OpenAgentRelay](https://github.com/ShakespeareLabs/open-agent-relay) - Open-source CLI for sharing a restricted local coding-agent command with teammates or other agents over a trusted LAN, with JSON output, target verification, and scriptable exit codes. By ShakespeareLabs.
 - [Claude Code](https://claude.com/product/claude-code) - Anthropic's agentic coding tool that runs in the terminal, IDE, and CI, understands a codebase, and executes edits, tests, and Git workflows.
 - [OpenAI Codex CLI](https://github.com/openai/codex) - Open-source lightweight coding agent that runs locally in the terminal with sandboxed execution. By OpenAI.
 - [Cursor](https://cursor.com/) - AI code editor and agent for building software across desktop, CLI, and mobile. By Anysphere.
