@@ -1,0 +1,58 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  schedule:
+    - cron: '0 6 * * 1'
+
+permissions:
+  contents: read
+
+jobs:
+  awesome-lint:
+    name: awesome-lint
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Run awesome-lint (Start here duplicates are allowlisted)
+        run: |
+          npx --yes awesome-lint > lint.txt 2>&1 || true
+          python3 .github/filter-lint.py lint.txt .github/allowed-duplicate-links.txt
+
+  style:
+    name: style guard
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: No em/en dashes, no emojis
+        run: |
+          status=0
+          if grep -RnP '[\x{2013}\x{2014}]' README.md CONTRIBUTING.md; then
+            echo "Found em or en dashes. Use commas or parentheses instead."
+            status=1
+          fi
+          if grep -RnP '[\x{1F000}-\x{1FAFF}\x{2600}-\x{27BF}\x{FE0F}\x{2190}-\x{21FF}]' README.md CONTRIBUTING.md; then
+            echo "Found emojis or decorative symbols. Remove them."
+            status=1
+          fi
+          exit $status
+
+  link-check:
+    name: link check
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: lycheeverse/lychee-action@v2
+        with:
+          args: >-
+            --no-progress
+            --accept '200..=206,403,429'
+            README.md CONTRIBUTING.md
+          fail: true

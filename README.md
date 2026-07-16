@@ -21,6 +21,7 @@ engineering practice rather than hype. Contributions are welcome.
 - [Videos and talks](#videos-and-talks)
 - [Case studies and in practice](#case-studies-and-in-practice)
 - [Communities](#communities)
+- [How this list is maintained](#how-this-list-is-maintained)
 
 ## Start here
 A short on-ramp: read the framing, learn to direct one agent well, then see it running in production.

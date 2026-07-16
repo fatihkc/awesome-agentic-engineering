@@ -29,6 +29,17 @@ AGENTS belong here.
 - Keep pull requests SMALL and high-signal (a few entries), never bulk dumps.
 - No em-dashes or en-dashes (use commas or parentheses); no emojis.
 
+## Automated checks
+Every pull request runs CI before human review:
+- awesome-lint for list formatting, ToC consistency, and duplicate entries. The Start here section
+  intentionally repeats a few links; those are allowlisted in `.github/allowed-duplicate-links.txt`. If a
+  duplicate check fails on your PR, the resource is almost certainly already on the list.
+- A link check (lychee) verifying that every URL resolves.
+- A style check: no em-dashes or en-dashes, no emojis.
+
+Passing CI does not guarantee a merge. The quality bar above is applied by the maintainer, and substance
+(is this a real, adopted, worthwhile resource) is judged by a human, not a linter.
+
 ## Maintenance
 The maintainer reviews and merges contributions and periodically checks existing entries for dead links and
 staleness. Every pull request goes through the same quality bar.
