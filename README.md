@@ -106,6 +106,9 @@ A small set of the seminal work underneath agentic coding. Background, not the w
 - [Advanced Context Engineering for Coding Agents](https://github.com/humanlayer/advanced-context-engineering-for-coding-agents/blob/main/ace-fca.md) - Intentional compaction and a research, plan, implement workflow for coding agents in large legacy codebases. By Dex Horthy.
 - [Not All AI-Assisted Programming Is Vibe Coding](https://simonwillison.net/2025/Mar/19/vibe-coding/) - Distinguishes unreviewed vibe coding from professional AI-assisted engineering where you review, test, and can explain the code. By Simon Willison.
 - [Better Models: Worse Tools](https://lucumr.pocoo.org/2026/7/4/better-models-worse-tools/) - A field report on newer Claude models regressing on structured tool-call arguments, and what that implies about the fragility of coding agent harnesses. By Armin Ronacher.
+- [Loop Engineering: Getting Started with Loops](https://claude.com/blog/getting-started-with-loops) - Anthropic's own breakdown of turn-based, goal-based, and time-based agent loops in Claude Code, and when each pattern fits. By Anthropic.
+- [The Tower Keeps Rising](https://lucumr.pocoo.org/2026/7/13/the-tower-keeps-rising/) - Argues coding agents remove the human coordination that used to force a shared mental model of a codebase, so teams keep shipping even as their collective understanding of the system erodes. By Armin Ronacher.
+- [What Is Loop Engineering?](https://newsletter.pragmaticengineer.com/p/what-is-loop-engineering) - A reported look at the newly popular term, tracing it from Geoffrey Huntley's Ralph loops to Boris Cherny's remark that he now writes loops instead of prompts, with a skeptical take on how new the idea really is. By Gergely Orosz.
 
 ## Videos and talks
 - [Claude Code and the Evolution of Agentic Coding](https://www.youtube.com/watch?v=Lue8K2jqfKk) - How coding agents differ from autocomplete and how agentic coding workflows are evolving. By Boris Cherny (Anthropic).
@@ -126,6 +129,7 @@ A small set of the seminal work underneath agentic coding. Background, not the w
 - [Agentic Coding: Things That Didn't Work](https://lucumr.pocoo.org/2025/7/30/things-that-didnt-work/) - An honest post-mortem of abandoned techniques (slash commands, hooks, subagent parallelization) and why. By Armin Ronacher.
 - [Benchmarking Coding Agents on Databricks' Multi-Million Line Codebase](https://www.databricks.com/blog/benchmarking-coding-agents-databricks-multi-million-line-codebase) - An internal benchmark of coding agent models and harnesses against real engineering tasks on a large production codebase, comparing cost against success rate. By Databricks.
 - [Old and New Apps, via Modern Coding Agents](https://terrytao.wordpress.com/2026/07/11/old-and-new-apps-via-modern-coding-agents/) - A mathematician uses a coding agent to port decades-old Java applets to JavaScript, which surfaces bugs in the original code, then builds a new visualization tool he had abandoned years earlier. By Terence Tao.
+- [How Anthropic Runs Large-Scale Code Migrations with Claude Code](https://claude.com/blog/ai-code-migration) - A six-stage migration playbook, illustrated by Bun's roughly one-million-line Zig-to-Rust rewrite in under two weeks with its full test suite passing before merge. By Anthropic.
 - [devopsstart](https://devopsstart.com) - A DevOps learning site written and operated by an autonomous agentic content pipeline, run by this list's maintainer. By Fatih Koc.
 
 ## Communities
