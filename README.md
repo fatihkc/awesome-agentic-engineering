@@ -7,7 +7,8 @@ the development lifecycle: the engineer sets the goal, delegates to agents, and 
 they produce. This list collects the highest-signal resources for learning it, from coding agents and
 harnesses to loop and context engineering, spec-driven development, evals, and real production case studies.
 It is maintained by Fatih Koc (https://fatihkoc.net), with a bias toward resources that hold up in real
-engineering practice rather than hype. Contributions are welcome.
+engineering practice rather than hype. Contributions are welcome. It also lives as a browsable
+site at <https://awesomeagenticengineering.com>.
 
 ## Contents
 - [Start here](#start-here)
