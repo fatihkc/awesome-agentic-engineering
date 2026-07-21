@@ -56,3 +56,11 @@ jobs:
             --accept '200..=206,403,429'
             README.md CONTRIBUTING.md
           fail: true
+
+  caps:
+    name: section caps
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Enforce per-section entry caps
+        run: python3 .github/check-caps.py README.md .github/section-caps.txt
