@@ -1,0 +1,14 @@
+# Per-section entry caps for the bounded best-N list.
+# One `Section heading = N` per capped section. Headings must match README.md `##` headings exactly.
+# Sections not listed here (Contents, Contributing, How this list is maintained) are uncapped.
+Start here = 7
+Foundations = 5
+Coding agents and tools = 8
+Books = 6
+Courses = 5
+Podcasts = 5
+Blogs and newsletters = 6
+Essays and writing = 6
+Videos and talks = 5
+Case studies and in practice = 6
+Communities = 5
