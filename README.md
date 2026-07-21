@@ -104,6 +104,7 @@ A small set of the seminal work underneath agentic coding. Background, not the w
 - [A Grounded Take on Agentic Coding for Production](https://iximiuz.com/en/posts/grounded-take-on-agentic-coding/) - Generating over 50,000 lines of mostly AI-written code in a month: task decomposition, domain knowledge, and verification through integration tests. By Ivan Velichko.
 - [Agentic Coding: Things That Didn't Work](https://lucumr.pocoo.org/2025/7/30/things-that-didnt-work/) - An honest post-mortem of abandoned techniques (slash commands, hooks, subagent parallelization) and why. By Armin Ronacher.
 - [Old and New Apps, via Modern Coding Agents](https://terrytao.wordpress.com/2026/07/11/old-and-new-apps-via-modern-coding-agents/) - A mathematician uses a coding agent to port decades-old Java applets to JavaScript, which surfaces bugs in the original code, then builds a new visualization tool he had abandoned years earlier. By Terence Tao.
+- [devopsstart](https://devopsstart.com) - A DevOps learning site written and operated by an autonomous agentic content pipeline, run by this list's maintainer. By Fatih Koc.
 
 ## Communities
 - [Cursor Community Forum](https://forum.cursor.com/) - Official forum for the Cursor coding agent: agent workflows, model comparisons, and rules configuration.

@@ -10,5 +10,5 @@ Podcasts = 5
 Blogs and newsletters = 6
 Essays and writing = 6
 Videos and talks = 5
-Case studies and in practice = 6
+Case studies and in practice = 7
 Communities = 5
