@@ -1,8 +1,4 @@
 https://www.youtube.com/watch?v=LCEmiRjPEtQ
 https://www.anthropic.com/engineering/building-effective-agents
-https://www.anthropic.com/engineering/claude-code-best-practices
-https://github.com/humanlayer/12-factor-agents
-https://simonwillison.net/2025/Sep/30/designing-agentic-loops/
-https://www.youtube.com/watch?v=rmvDxxNubIg
 https://www.deeplearning.ai/courses/spec-driven-development-with-coding-agents
 https://claude.com/product/claude-code
