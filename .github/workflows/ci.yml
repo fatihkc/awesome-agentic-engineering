@@ -21,10 +21,8 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 20
-      - name: Run awesome-lint (Start here duplicates are allowlisted)
-        run: |
-          npx --yes awesome-lint > lint.txt 2>&1 || true
-          python3 .github/filter-lint.py lint.txt .github/allowed-duplicate-links.txt
+      - name: Run awesome-lint
+        run: npx --yes awesome-lint
 
   style:
     name: style guard

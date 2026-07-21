@@ -1,4 +1,0 @@
-https://www.youtube.com/watch?v=LCEmiRjPEtQ
-https://www.anthropic.com/engineering/building-effective-agents
-https://www.deeplearning.ai/courses/spec-driven-development-with-coding-agents
-https://claude.com/product/claude-code
