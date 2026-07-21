@@ -121,3 +121,4 @@ This list is human-fronted, and partly maintained by the discipline it documents
 (the [weekly-curator skill](.claude/skills/weekly-curator/SKILL.md)) drafts a pull request: it scans for
 newly-published, in-scope resources and checks the existing links for rot. The maintainer reviews and merges
 every change by hand, so nothing lands without a human. The agent does the legwork; the judgment stays human.
+This list is deliberately bounded: each section holds only its best entries (a per-section cap, enforced in CI), so a new resource earns its place by beating one already here.

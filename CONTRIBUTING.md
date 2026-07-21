@@ -9,6 +9,15 @@ development lifecycle: coding agents and harnesses, loop and context engineering
 evals, review and verification, and production case studies. Resources about ENGINEERING SOFTWARE WITH
 AGENTS belong here.
 
+## This list is bounded
+This is a best-N list, not a comprehensive one. Each section has a maximum (see
+[`.github/section-caps.txt`](.github/section-caps.txt)), enforced in CI. A full section grows only by
+displacement, so a pull request that adds to a section already at its cap will show a red cap-check until an
+entry is removed. You are welcome to suggest which weaker entry yours should replace and why, but you do not
+have to: the maintainer makes the final call on what leaves. When a section is full, the bar is not "is this
+good" but "is this better than the weakest entry already here", and a pull request that does not clear that
+bar may be declined.
+
 ## What belongs here
 - Real, substantive resources across any type: books, courses, podcasts, blogs, essays, talks, tools,
   communities, and case studies.
