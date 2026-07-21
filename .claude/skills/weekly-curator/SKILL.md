@@ -48,8 +48,6 @@ full section is not an option. When a section is full, you displace, you do not 
      take the single strongest and name the runner-up in the PR body without adding it.
    - Every swap needs a one-line head-to-head rationale: new beats old because X; old is superseded by or
      weaker than Y.
-   - If a swap removes the second copy of a URL that was in `.github/allowed-duplicate-links.txt`, drop that
-     now-stale allowlist line too.
 6. Create a branch `curate/YYYY-MM-DD`, apply the changes keeping formatting and ordering consistent,
    commit, push the branch, and open a pull request titled `curate: weekly review YYYY-MM-DD`. Structure the
    PR body in four parts:

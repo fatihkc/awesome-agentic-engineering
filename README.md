@@ -25,14 +25,11 @@ site at <https://awesomeagenticengineering.com>.
 - [How this list is maintained](#how-this-list-is-maintained)
 
 ## Start here
-A short on-ramp: read the framing, learn to direct one agent well, then see it running in production.
-- [Software Is Changing (Again)](https://www.youtube.com/watch?v=LCEmiRjPEtQ) - Karpathy's keynote on the Software 3.0 shift and choosing autonomy levels when delegating to AI.
-- [Building Effective Agents](https://www.anthropic.com/engineering/building-effective-agents) - Anthropic's guide to the vocabulary: workflows vs agents, and the composable patterns.
+A short on-ramp. Start with the framing in Foundations, learn to direct one agent well with the three guides
+here, then watch it run in production in Case studies and in practice.
 - [Claude Code Best Practices](https://www.anthropic.com/engineering/claude-code-best-practices) - How to actually direct a coding agent: workflows, context files, permissions, patterns.
 - [12-Factor Agents](https://github.com/humanlayer/12-factor-agents) - Twelve principles for reliable, production-grade LLM software.
 - [Designing agentic loops](https://simonwillison.net/2025/Sep/30/designing-agentic-loops/) - Loop engineering: goals, tools, and safety constraints so an agent can iterate toward a solution.
-- [Spec-Driven Development with Coding Agents](https://www.deeplearning.ai/courses/spec-driven-development-with-coding-agents) - A hands-on course on the plan, implement, verify workflow with agents.
-- [Claude Code](https://claude.com/product/claude-code) - A capable coding agent to start practicing with today.
 
 ## Foundations
 A small set of the seminal work underneath agentic coding. Background, not the whole research pile.

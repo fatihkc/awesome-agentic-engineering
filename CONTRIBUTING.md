@@ -40,9 +40,9 @@ bar may be declined.
 
 ## Automated checks
 Every pull request runs CI before human review:
-- awesome-lint for list formatting, ToC consistency, and duplicate entries. The Start here section
-  intentionally repeats a few links; those are allowlisted in `.github/allowed-duplicate-links.txt`. If a
-  duplicate check fails on your PR, the resource is almost certainly already on the list.
+- awesome-lint for list formatting, ToC consistency, and duplicate entries. If a duplicate check fails on
+  your PR, the resource is almost certainly already on the list. Every resource appears exactly once, so
+  the Start here section points to categories rather than repeating their links.
 - A link check (lychee) verifying that every URL resolves.
 - A style check: no em-dashes or en-dashes, no emojis.
 
