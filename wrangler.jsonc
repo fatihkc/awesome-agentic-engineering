@@ -10,5 +10,8 @@
   },
   "compatibility_flags": [
     "nodejs_compat"
-  ]
+  ],
+  "build": {
+    "command": "npm ci && npm run build"
+  }
 }
