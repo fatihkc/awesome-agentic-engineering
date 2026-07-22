@@ -6,9 +6,12 @@
     "enabled": true
   },
   "assets": {
-    "directory": "site"
+    "directory": "dist"
   },
   "compatibility_flags": [
     "nodejs_compat"
-  ]
+  ],
+  "build": {
+    "command": "npm ci && npm run build"
+  }
 }
