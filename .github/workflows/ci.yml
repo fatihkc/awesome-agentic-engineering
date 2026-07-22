@@ -62,3 +62,15 @@ jobs:
       - uses: actions/checkout@v4
       - name: Enforce per-section entry caps
         run: python3 .github/check-caps.py README.md .github/section-caps.txt
+
+  site-build:
+    name: site build
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - run: npm ci
+      - run: npm test
+      - run: npm run build
