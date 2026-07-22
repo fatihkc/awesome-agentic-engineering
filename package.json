@@ -1,0 +1,12 @@
+{
+  "name": "awesome-agentic-engineering-site",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node web/build.mjs",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "markdown-it": "^14.1.0"
+  }
+}
