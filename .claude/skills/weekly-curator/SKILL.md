@@ -48,20 +48,31 @@ full section is not an option. When a section is full, you displace, you do not 
      take the single strongest and name the runner-up in the PR body without adding it.
    - Every swap needs a one-line head-to-head rationale: new beats old because X; old is superseded by or
      weaker than Y.
-6. Create a branch `curate/YYYY-MM-DD`, apply the changes keeping formatting and ordering consistent,
+6. Record every change in `CHANGELOG.md` under `## Unreleased`, in the same commit as the README edit. Use
+   only the subsections you need, in this order: `### Added` (bare adds), `### Swapped` (displacements),
+   `### Removed` (dead or out-of-scope entries you cut), `### Fixed` (corrected or moved URLs). One bullet
+   per change, each ending with its section name in parentheses:
+   - Added or Fixed: `- [Title](url) - one-line reason or what changed. (Section)`
+   - Swapped: `- [New](url) replaces Old Title (old bare URL in backticks) - head-to-head reason. (Section)`
+   - Removed: `- Old Title (bare URL in backticks) - why it was cut. (Section)`
+   Leave dead and displaced URLs unlinked, in backticks, so nothing in the repo points at rot. Never create,
+   rename, or date a version heading: `.github/workflows/release.yml` turns the Unreleased block into a dated
+   release on the first of each month, and that block is the only part of the file you touch.
+7. Create a branch `curate/YYYY-MM-DD`, apply the changes keeping formatting and ordering consistent,
    commit, push the branch, and open a pull request titled `curate: weekly review YYYY-MM-DD`. Structure the
    PR body in four parts:
    - Additions (to under-cap sections), each with a one-line rationale.
    - Swaps, each as `+ add / - cut` with the head-to-head rationale.
    - Dead or broken links found, with entry and status.
    - Stale or out-of-scope entries to review, with entry and reason.
-7. Before opening the PR, run `python3 .github/check-caps.py README.md .github/section-caps.txt` and confirm
+8. Before opening the PR, run `python3 .github/check-caps.py README.md .github/section-caps.txt` and confirm
    it passes. Do NOT merge and do NOT push to main. If nothing clears the bar and there are no maintenance
    findings, open no pull request. If there are only maintenance findings, open a pull request with just
    those.
 
 ## Rules
 - You draft, the human ships. Never merge, never push to main.
+- In `CHANGELOG.md`, only ever touch the `## Unreleased` block. Releases are cut by workflow, never by you.
 - The list is bounded. A full section is displaced, never appended to. One swap per section per run.
 - Small and high-signal beats large and noisy.
 - No em-dashes or en-dashes (use commas or parentheses); no emojis.
