@@ -32,11 +32,11 @@ jobs:
       - name: No em/en dashes, no emojis
         run: |
           status=0
-          if grep -RnP '[\x{2013}\x{2014}]' README.md CONTRIBUTING.md; then
+          if grep -RnP '[\x{2013}\x{2014}]' README.md CONTRIBUTING.md CHANGELOG.md; then
             echo "Found em or en dashes. Use commas or parentheses instead."
             status=1
           fi
-          if grep -RnP '[\x{1F000}-\x{1FAFF}\x{2600}-\x{27BF}\x{FE0F}\x{2190}-\x{21FF}]' README.md CONTRIBUTING.md; then
+          if grep -RnP '[\x{1F000}-\x{1FAFF}\x{2600}-\x{27BF}\x{FE0F}\x{2190}-\x{21FF}]' README.md CONTRIBUTING.md CHANGELOG.md; then
             echo "Found emojis or decorative symbols. Remove them."
             status=1
           fi

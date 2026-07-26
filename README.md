@@ -120,3 +120,7 @@ This list is human-fronted, and partly maintained by the discipline it documents
 newly-published, in-scope resources and checks the existing links for rot. The maintainer reviews and merges
 every change by hand, so nothing lands without a human. The agent does the legwork; the judgment stays human.
 This list is deliberately bounded: each section holds only its best entries (a per-section cap, enforced in CI), so a new resource earns its place by beating one already here.
+Every merged change is recorded in the [changelog](CHANGELOG.md), and a release is cut from it on the first of
+each month. Stars do not send notifications on GitHub, so to follow what gets added, use Watch, Custom,
+Releases, or subscribe to the
+[releases feed](https://github.com/fatihkc/awesome-agentic-engineering/releases.atom).
