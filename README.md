@@ -46,7 +46,7 @@ A small set of the seminal work underneath agentic coding. Background, not the w
 - [Aider](https://github.com/Aider-AI/aider) - Open-source terminal pair-programming agent that edits code in a local Git repository using an LLM of choice.
 - [Cline](https://github.com/cline/cline) - Open-source autonomous coding agent available as an IDE extension, CLI, and SDK.
 - [Devin](https://devin.ai/) - Autonomous AI software engineer for long-horizon tasks like migrations, bug fixes, and PRs. By Cognition.
-- [OpenHands](https://github.com/All-Hands-AI/OpenHands) - Open-source, self-hostable platform for running coding agents and automations.
+- [OpenHands](https://github.com/OpenHands/OpenHands) - Open-source, self-hostable platform for running coding agents and automations.
 - [Model Context Protocol](https://modelcontextprotocol.io/) - Open standard for connecting coding agents to external tools, data, and workflows. By Anthropic.
 
 ## Books
@@ -101,7 +101,7 @@ A small set of the seminal work underneath agentic coding. Background, not the w
 - [A Grounded Take on Agentic Coding for Production](https://iximiuz.com/en/posts/grounded-take-on-agentic-coding/) - Generating over 50,000 lines of mostly AI-written code in a month: task decomposition, domain knowledge, and verification through integration tests. By Ivan Velichko.
 - [Agentic Coding: Things That Didn't Work](https://lucumr.pocoo.org/2025/7/30/things-that-didnt-work/) - An honest post-mortem of abandoned techniques (slash commands, hooks, subagent parallelization) and why. By Armin Ronacher.
 - [Old and New Apps, via Modern Coding Agents](https://terrytao.wordpress.com/2026/07/11/old-and-new-apps-via-modern-coding-agents/) - A mathematician uses a coding agent to port decades-old Java applets to JavaScript, which surfaces bugs in the original code, then builds a new visualization tool he had abandoned years earlier. By Terence Tao.
-- [devopsstart](https://devopsstart.com) - A DevOps learning site written and operated by an autonomous agentic content pipeline, run by this list's maintainer. By Fatih Koc.
+- [How Anthropic Runs Large-Scale Code Migrations with Claude Code](https://claude.com/blog/ai-code-migration) - A rulebook, dependency map, and verification-loop methodology for porting production codebases, including Bun's million-line Zig-to-Rust migration. By Anthropic.
 
 ## Communities
 - [Cursor Community Forum](https://forum.cursor.com/) - Official forum for the Cursor coding agent: agent workflows, model comparisons, and rules configuration.
