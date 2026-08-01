@@ -6,6 +6,8 @@ starts on 2026-07-26; earlier history is in the git log.
 
 ## Unreleased
 
+## 2026.07 (2026-07-31)
+
 ### Swapped
 - [How Anthropic Runs Large-Scale Code Migrations with Claude Code](https://claude.com/blog/ai-code-migration) replaces devopsstart (`https://devopsstart.com`) - A production migration methodology (rulebook, dependency map, verification loop) outweighs the maintainer's own site in a section at cap. (Case studies and in practice)
 
