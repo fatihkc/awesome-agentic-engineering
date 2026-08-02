@@ -6,6 +6,9 @@ starts on 2026-07-26; earlier history is in the git log.
 
 ## Unreleased
 
+### Swapped
+- [Razorpay Engineers Built Slash. Slash Builds the Rest.](https://razorpay.com/blog/razorpay-engineers-built-slash-slash-builds-the-rest/) replaces A Grounded Take on Agentic Coding for Production (`https://iximiuz.com/en/posts/grounded-take-on-agentic-coding/`) - A production engineering org running thousands of agent-merged pull requests a month with quantified review metrics outweighs a single practitioner's personal-scale account. (Case studies and in practice)
+
 ## 2026.07 (2026-07-31)
 
 ### Swapped
