@@ -232,6 +232,15 @@ export function renderPage(model) {
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>${esc(model.title)}</title>
 <meta name="description" content="${esc(model.tagline)}">
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-TBQ9R3P9Q4"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-TBQ9R3P9Q4');
+</script>
 <style>${STYLE}</style>
 </head>
 <body>
