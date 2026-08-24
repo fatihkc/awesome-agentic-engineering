@@ -1,14 +1,8 @@
 # Awesome Agentic Engineering [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-> A curated map of the best resources for learning agentic engineering and the AI-native SDLC.
+> Building and shipping software by directing AI coding agents across the development lifecycle.
 
-Agentic engineering is the discipline of building and shipping software by directing AI coding agents across
-the development lifecycle: the engineer sets the goal, delegates to agents, and reviews and verifies what
-they produce. This list collects the highest-signal resources for learning it, from coding agents and
-harnesses to loop and context engineering, spec-driven development, evals, and real production case studies.
-It is maintained by Fatih Koc (https://fatihkoc.net), with a bias toward resources that hold up in real
-engineering practice rather than hype. Contributions are welcome. It also lives as a browsable
-site at <https://awesomeagenticengineering.com>.
+Agentic engineering is the discipline of building and shipping software by directing AI coding agents across the development lifecycle: the engineer sets the goal, delegates to agents, and reviews and verifies what they produce. This list collects the highest-signal resources for learning it, from coding agents and harnesses to loop and context engineering, spec-driven development, evals, and real production case studies. It is maintained by Fatih Koc (https://fatihkoc.net), with a bias toward resources that hold up in real engineering practice rather than hype. Contributions are welcome. It also lives as a browsable site at <https://awesomeagenticengineering.com>.
 
 ## Contents
 - [Start here](#start-here)
@@ -25,8 +19,7 @@ site at <https://awesomeagenticengineering.com>.
 - [How this list is maintained](#how-this-list-is-maintained)
 
 ## Start here
-A short on-ramp. Start with the framing in Foundations, learn to direct one agent well with the three guides
-here, then watch it run in production in Case studies and in practice.
+A short on-ramp. Start with the framing in Foundations, learn to direct one agent well with the three guides here, then watch it run in production in Case studies and in practice.
 - [Claude Code Best Practices](https://www.anthropic.com/engineering/claude-code-best-practices) - How to actually direct a coding agent: workflows, context files, permissions, patterns.
 - [12-Factor Agents](https://github.com/humanlayer/12-factor-agents) - Twelve principles for reliable, production-grade LLM software.
 - [Designing agentic loops](https://simonwillison.net/2025/Sep/30/designing-agentic-loops/) - Loop engineering: goals, tools, and safety constraints so an agent can iterate toward a solution.
@@ -111,16 +104,7 @@ A small set of the seminal work underneath agentic coding. Background, not the w
 - [r/ChatGPTCoding](https://www.reddit.com/r/ChatGPTCoding/) - Tool-agnostic subreddit for AI-assisted and agentic coding (Claude Code, Cursor, Aider, and more).
 
 ## Contributing
-See [CONTRIBUTING.md](CONTRIBUTING.md). Open a pull request with resources that clear the bar, and the
-maintainer will review and merge them.
+See [CONTRIBUTING.md](CONTRIBUTING.md). Open a pull request with resources that clear the bar, and the maintainer will review and merge them.
 
 ## How this list is maintained
-This list is human-fronted, and partly maintained by the discipline it documents. Each week a curation agent
-(the [weekly-curator skill](.claude/skills/weekly-curator/SKILL.md)) drafts a pull request: it scans for
-newly-published, in-scope resources and checks the existing links for rot. The maintainer reviews and merges
-every change by hand, so nothing lands without a human. The agent does the legwork; the judgment stays human.
-This list is deliberately bounded: each section holds only its best entries (a per-section cap, enforced in CI), so a new resource earns its place by beating one already here.
-Every merged change is recorded in the [changelog](CHANGELOG.md), and a release is cut from it on the first of
-each month. Stars do not send notifications on GitHub, so to follow what gets added, use Watch, Custom,
-Releases, or subscribe to the
-[releases feed](https://github.com/fatihkc/awesome-agentic-engineering/releases.atom).
+Every entry on this list is chosen and merged by a human. It is also partly maintained by the discipline it documents. Each week a curation agent (the [weekly-curator skill](.claude/skills/weekly-curator/SKILL.md)) drafts a pull request: it scans for newly-published, in-scope resources and checks the existing links for rot. The maintainer reviews and merges every change by hand, so nothing lands without a human. The agent does the legwork; the judgment stays human. This list is deliberately bounded: each section holds only its best entries (a per-section cap, enforced in CI), so a new resource earns its place by beating one already here. Every merged change is recorded in the [changelog](CHANGELOG.md), and a release is cut from it on the first of each month. Stars do not send notifications on GitHub, so to follow what gets added, use Watch, Custom, Releases, or subscribe to the [releases feed](https://github.com/fatihkc/awesome-agentic-engineering/releases.atom).
