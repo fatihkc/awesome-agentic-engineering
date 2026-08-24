@@ -38,7 +38,7 @@ A small set of the seminal work underneath agentic coding. Background, not the w
 - [Cursor](https://cursor.com/) - AI code editor and agent for building software across desktop, CLI, and mobile. By Anysphere.
 - [Aider](https://github.com/Aider-AI/aider) - Open-source terminal pair-programming agent that edits code in a local Git repository using an LLM of choice.
 - [Cline](https://github.com/cline/cline) - Open-source autonomous coding agent available as an IDE extension, CLI, and SDK.
-- [Devin](https://devin.ai/) - Autonomous AI software engineer for long-horizon tasks like migrations, bug fixes, and PRs. By Cognition.
+- [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) - Open-source, plugin-everything agent harness built on the Cordis framework, in developer preview. By DeepSeek AI.
 - [OpenHands](https://github.com/OpenHands/OpenHands) - Open-source, self-hostable platform for running coding agents and automations.
 - [Model Context Protocol](https://modelcontextprotocol.io/) - Open standard for connecting coding agents to external tools, data, and workflows. By Anthropic.
 
@@ -85,7 +85,7 @@ A small set of the seminal work underneath agentic coding. Background, not the w
 - [No Vibes Allowed: Solving Hard Problems in Complex Codebases](https://www.youtube.com/watch?v=rmvDxxNubIg) - The Research, Plan, Implement workflow and intentional context compaction for coding agents in large codebases. By Dex Horthy.
 - [Engineering Practices That Make Coding Agents Work](https://www.youtube.com/watch?v=owmJyKVu5f8) - Concrete practices, testing, and verification patterns for reliable results from Claude Code and Codex. By Simon Willison.
 - [The New Code: Specifications as the Fundamental Unit of AI-Era Programming](https://www.youtube.com/watch?v=8rABwKRsec4) - Argues written specs, not code, become the primary artifact when directing AI. By Sean Grove (OpenAI).
-- [Agentic Coding: The Future of Software Development with Agents](https://www.youtube.com/watch?v=bpWPEhO7RqE) - Hands-on experience running Claude Code: tooling, permissions, and language choices for agentic coding. By Armin Ronacher.
+- [Agentic Coding: The Future of Software Development with Agents](https://www.youtube.com/watch?v=nfOVgz_omlU) - Hands-on experience running Claude Code: tooling, permissions, and language choices for agentic coding. By Armin Ronacher.
 
 ## Case studies and in practice
 - [How Claude Code Is Used in Practice](https://www.anthropic.com/research/claude-code-expertise) - Analysis of roughly 400,000 real sessions: success rates, the human and agent split between planning and execution, and how outcomes vary by expertise. By Anthropic.
