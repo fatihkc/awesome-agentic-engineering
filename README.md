@@ -44,7 +44,7 @@ A small set of the seminal work underneath agentic coding. Background, not the w
 - [OpenAI Codex CLI](https://github.com/openai/codex) - Open-source lightweight coding agent that runs locally in the terminal with sandboxed execution. By OpenAI.
 - [Cursor](https://cursor.com/) - AI code editor and agent for building software across desktop, CLI, and mobile. By Anysphere.
 - [Aider](https://github.com/Aider-AI/aider) - Open-source terminal pair-programming agent that edits code in a local Git repository using an LLM of choice.
-- [Cline](https://github.com/cline/cline) - Open-source autonomous coding agent available as an IDE extension, CLI, and SDK.
+- [DevSpecs](https://www.devspecs.com/) - Open-source, local-first CLI that gives coding agents fast brownfield context from existing plans, source, tests, and Git history, then preserves bounded task state, decisions, and handoffs without calling an LLM.
 - [Devin](https://devin.ai/) - Autonomous AI software engineer for long-horizon tasks like migrations, bug fixes, and PRs. By Cognition.
 - [OpenHands](https://github.com/OpenHands/OpenHands) - Open-source, self-hostable platform for running coding agents and automations.
 - [Model Context Protocol](https://modelcontextprotocol.io/) - Open standard for connecting coding agents to external tools, data, and workflows. By Anthropic.
