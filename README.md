@@ -39,6 +39,7 @@ A small set of the seminal work underneath agentic coding. Background, not the w
 - [Aider](https://github.com/Aider-AI/aider) - Open-source terminal pair-programming agent that edits code in a local Git repository using an LLM of choice.
 - [Cline](https://github.com/cline/cline) - Open-source autonomous coding agent available as an IDE extension, CLI, and SDK.
 - [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) - Open-source, plugin-everything agent harness built on the Cordis framework, in developer preview. By DeepSeek AI.
+- [DeepSeek Harness Handbook](https://github.com/sandbaseai/deepseek-harness-handbook) - Community-maintained, source-backed field guide for operating the harness: Agent lifecycle, tools, Sessions, plugins, MCP, sandboxing, and troubleshooting. By SandBase.
 - [OpenHands](https://github.com/OpenHands/OpenHands) - Open-source, self-hostable platform for running coding agents and automations.
 - [Model Context Protocol](https://modelcontextprotocol.io/) - Open standard for connecting coding agents to external tools, data, and workflows. By Anthropic.
 
