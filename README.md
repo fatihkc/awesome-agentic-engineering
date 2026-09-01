@@ -74,7 +74,7 @@ A small set of the seminal work underneath agentic coding. Background, not the w
 
 ## Essays and writing
 - [Agentic Coding Recommendations](https://lucumr.pocoo.org/2025/6/12/agentic-coding/) - Field-tested advice on language choice, tool speed, logging, and codebase structure that make coding agents effective. By Armin Ronacher.
-- [Revenge of the Junior Developer](https://sourcegraph.com/blog/revenge-of-the-junior-developer) - Six overlapping waves from completions to autonomous agents, agent clusters, and agent fleets. By Steve Yegge.
+- [Why Agent Edits Need Semantic Identity: Building SEMAPRAX in Rust](https://wavect.io/blog/semantic-identity-rust-agent-edits/) - A compiler case study on stable declaration IDs, deterministic semantic graphs, digest-bound impact previews, and replayable evidence gates for safer coding-agent changes. By Wavect GmbH.
 - [My LLM Codegen Workflow](https://harper.blog/2025/02/16/my-llm-codegen-workflow-atm/) - A spec, then plan, then execute workflow for building software with LLMs on greenfield and existing code. By Harper Reed.
 - [Ralph Wiggum as a Software Engineer](https://ghuntley.com/ralph/) - The Ralph technique: running a coding agent in a bash loop that repeatedly feeds one prompt, with progress persisted to files and git. By Geoffrey Huntley.
 - [Advanced Context Engineering for Coding Agents](https://github.com/humanlayer/advanced-context-engineering-for-coding-agents/blob/main/ace-fca.md) - Intentional compaction and a research, plan, implement workflow for coding agents in large legacy codebases. By Dex Horthy.
