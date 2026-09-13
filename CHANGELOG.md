@@ -6,6 +6,9 @@ starts on 2026-07-26; earlier history is in the git log.
 
 ## Unreleased
 
+### Fixed
+- [Claude Code Best Practices](https://code.claude.com/docs/en/best-practices) - Updated to the canonical URL after the page moved from anthropic.com/engineering to code.claude.com/docs. (Start here)
+
 ## 2026.08 (2026-08-31)
 
 ### Swapped

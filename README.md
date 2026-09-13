@@ -20,7 +20,7 @@ Agentic engineering is the discipline of building and shipping software by direc
 
 ## Start here
 A short on-ramp. Start with the framing in Foundations, learn to direct one agent well with the three guides here, then watch it run in production in Case studies and in practice.
-- [Claude Code Best Practices](https://www.anthropic.com/engineering/claude-code-best-practices) - How to actually direct a coding agent: workflows, context files, permissions, patterns.
+- [Claude Code Best Practices](https://code.claude.com/docs/en/best-practices) - How to actually direct a coding agent: workflows, context files, permissions, patterns.
 - [12-Factor Agents](https://github.com/humanlayer/12-factor-agents) - Twelve principles for reliable, production-grade LLM software.
 - [Designing agentic loops](https://simonwillison.net/2025/Sep/30/designing-agentic-loops/) - Loop engineering: goals, tools, and safety constraints so an agent can iterate toward a solution.
 
