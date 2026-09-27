@@ -6,6 +6,9 @@ starts on 2026-07-26; earlier history is in the git log.
 
 ## Unreleased
 
+### Swapped
+- [Pi](https://pi.dev) replaces DeepSeek Harness (`https://github.com/deepseek-ai/deepseek-harness`) - Pi is a mature, actively-maintained, provider-agnostic harness with real production adoption (it powers OpenClaw) from identifiable authors, while DeepSeek Harness remains in developer preview with breaking changes still expected, as flagged for a re-check in the 2026.08 release. (Coding agents and tools)
+
 ## 2026.08 (2026-08-31)
 
 ### Swapped
