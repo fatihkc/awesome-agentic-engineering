@@ -6,6 +6,9 @@ starts on 2026-07-26; earlier history is in the git log.
 
 ## Unreleased
 
+### Swapped
+- [Case Study: Refactoring at Scale with Agents](https://codescene.com/blog/case-study-refactoring-at-scale-with-agents) replaces AI-Driven Refactoring in Large-Scale Migrations (`https://medium.com/qonto-way/ai-driven-refactoring-in-large-scale-migrations-strategies-and-techniques-fcdb9b5116c6`) - A quantified, tool-backed refactor (a deterministic CodeHealth quality signal, frame-exact replay verification, and a direct Claude Opus vs Codex comparison) on a larger codebase outweighs a migration anecdote tied to an earlier model generation (Claude 3.5 Sonnet). (Case studies and in practice)
+
 ## 2026.08 (2026-08-31)
 
 ### Swapped
