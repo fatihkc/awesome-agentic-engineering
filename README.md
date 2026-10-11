@@ -108,3 +108,8 @@ See [CONTRIBUTING.md](CONTRIBUTING.md). Open a pull request with resources that 
 
 ## How this list is maintained
 Every entry on this list is chosen and merged by a human. It is also partly maintained by the discipline it documents. Each week a curation agent (the [weekly-curator skill](.claude/skills/weekly-curator/SKILL.md)) drafts a pull request: it scans for newly-published, in-scope resources and checks the existing links for rot. The maintainer reviews and merges every change by hand, so nothing lands without a human. The agent does the legwork; the judgment stays human. This list is deliberately bounded: each section holds only its best entries (a per-section cap, enforced in CI), so a new resource earns its place by beating one already here. Every merged change is recorded in the [changelog](CHANGELOG.md), and a release is cut from it on the first of each month. Stars do not send notifications on GitHub, so to follow what gets added, use Watch, Custom, Releases, or subscribe to the [releases feed](https://github.com/fatihkc/awesome-agentic-engineering/releases.atom).
+
+## Tale
+
+[**Tale**](https://tale.dev) is an open-source project workspace for teams and AI agents. Delegate tasks to configured agents in persistent sandboxes, then review reports, deliverables, and run history together. Tale also exposes an authenticated MCP endpoint for tool discovery and automation authoring. [Source repository](https://github.com/tale-project/tale) · [MCP docs](https://docs.tale.dev/develop/mcp-endpoint)
+
