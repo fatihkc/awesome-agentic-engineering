@@ -38,7 +38,7 @@ A small set of the seminal work underneath agentic coding. Background, not the w
 - [Cursor](https://cursor.com/) - AI code editor and agent for building software across desktop, CLI, and mobile. By Anysphere.
 - [Aider](https://github.com/Aider-AI/aider) - Open-source terminal pair-programming agent that edits code in a local Git repository using an LLM of choice.
 - [Cline](https://github.com/cline/cline) - Open-source autonomous coding agent available as an IDE extension, CLI, and SDK.
-- [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) - Open-source, plugin-everything agent harness built on the Cordis framework, in developer preview. By DeepSeek AI.
+- [OpenCode](https://github.com/sst/opencode) - Open-source, provider-agnostic coding agent for the terminal, IDE, and desktop, with separate build and plan agent modes. By Anomaly.
 - [OpenHands](https://github.com/OpenHands/OpenHands) - Open-source, self-hostable platform for running coding agents and automations.
 - [Model Context Protocol](https://modelcontextprotocol.io/) - Open standard for connecting coding agents to external tools, data, and workflows. By Anthropic.
 
@@ -89,7 +89,7 @@ A small set of the seminal work underneath agentic coding. Background, not the w
 
 ## Case studies and in practice
 - [How Claude Code Is Used in Practice](https://www.anthropic.com/research/claude-code-expertise) - Analysis of roughly 400,000 real sessions: success rates, the human and agent split between planning and execution, and how outcomes vary by expertise. By Anthropic.
-- [AI-Driven Refactoring in Large-Scale Migrations](https://medium.com/qonto-way/ai-driven-refactoring-in-large-scale-migrations-strategies-and-techniques-fcdb9b5116c6) - Building an Aider-based agent to migrate roughly one million lines of Ember.js to React, with throughput rising from about 50 to sometimes over 1,000 lines per engineer per day. By Stefano Amorelli (Qonto).
+- [Adoption and Impact of Command-Line AI Coding Agents](https://arxiv.org/abs/2607.01418) - A four-month field study of Microsoft's early-2026 rollout of Claude Code and GitHub Copilot CLI across tens of thousands of engineers, finding adopters merged about 24 percent more pull requests. Murphy-Hill, Butler, and Savelieva (2026).
 - [WhatsCode: Large-Scale GenAI Deployment at WhatsApp](https://arxiv.org/abs/2512.05314) - 25 months of agentic coding at WhatsApp: over 3,000 accepted code changes and privacy-verification coverage rising from 15 to 53 percent. Mao et al. (Meta).
 - [Razorpay Engineers Built Slash. Slash Builds the Rest.](https://razorpay.com/blog/razorpay-engineers-built-slash-slash-builds-the-rest/) - An internal coding agent that opens, reviews, and merges thousands of pull requests a month, with specialized sub-agents checking every change before a human does. By Razorpay Engineering.
 - [Harness Engineering: Leveraging Codex in an Agent-First World](https://openai.com/index/harness-engineering/) - A three-person team's five-month, roughly one-million-line, 1,500-pull-request internal product built entirely by Codex, with humans designing the harness instead of writing code. By Ryan Lopopolo (OpenAI).

@@ -6,6 +6,10 @@ starts on 2026-07-26; earlier history is in the git log.
 
 ## Unreleased
 
+### Swapped
+- [Adoption and Impact of Command-Line AI Coding Agents](https://arxiv.org/abs/2607.01418) replaces AI-Driven Refactoring in Large-Scale Migrations (`https://medium.com/qonto-way/ai-driven-refactoring-in-large-scale-migrations-strategies-and-techniques-fcdb9b5116c6`) - A four-month quantified field study across tens of thousands of Microsoft engineers outweighs a single engineer's narrative account of one company's migration. (Case studies and in practice)
+- [OpenCode](https://github.com/sst/opencode) replaces DeepSeek Harness (`https://github.com/deepseek-ai/deepseek-harness`) - A widely-adopted, stable open-source coding agent outweighs a still-developer-preview harness with warned compatibility-breaking changes; DeepSeek Harness was flagged as a re-check candidate last cycle and has not progressed past preview. (Coding agents and tools)
+
 ## 2026.08 (2026-08-31)
 
 ### Swapped
