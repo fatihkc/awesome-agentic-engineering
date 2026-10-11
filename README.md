@@ -79,7 +79,7 @@ A small set of the seminal work underneath agentic coding. Background, not the w
 - [Ralph Wiggum as a Software Engineer](https://ghuntley.com/ralph/) - The Ralph technique: running a coding agent in a bash loop that repeatedly feeds one prompt, with progress persisted to files and git. By Geoffrey Huntley.
 - [Advanced Context Engineering for Coding Agents](https://github.com/humanlayer/advanced-context-engineering-for-coding-agents/blob/main/ace-fca.md) - Intentional compaction and a research, plan, implement workflow for coding agents in large legacy codebases. By Dex Horthy.
 - [Not All AI-Assisted Programming Is Vibe Coding](https://simonwillison.net/2025/Mar/19/vibe-coding/) - Distinguishes unreviewed vibe coding from professional AI-assisted engineering where - 
-[Coding Agents in the SDLC: A Practical Workflow for Reviewable Changes](https://www.bitneka.com/blog/post-19-autonomous-coding-agents-enterprise-sdlc) - Six-stage enterprise workflow for keeping agent-generated changes reviewable, with a review-evidence table (Bitneka Technologies).
+- [Coding Agents in the SDLC: A Practical Workflow for Reviewable Changes](https://www.bitneka.com/blog/post-19-autonomous-coding-agents-enterprise-sdlc) - Six-stage enterprise workflow for keeping agent-generated changes reviewable, with a review-evidence table (Bitneka Technologies).
 
 ## Videos and talks
 - [Claude Code and the Evolution of Agentic Coding](https://www.youtube.com/watch?v=Lue8K2jqfKk) - How coding agents differ from autocomplete and how agentic coding workflows are evolving. By Boris Cherny (Anthropic).
