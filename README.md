@@ -41,6 +41,7 @@ A small set of the seminal work underneath agentic coding. Background, not the w
 - [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) - Open-source, plugin-everything agent harness built on the Cordis framework, in developer preview. By DeepSeek AI.
 - [OpenHands](https://github.com/OpenHands/OpenHands) - Open-source, self-hostable platform for running coding agents and automations.
 - [Model Context Protocol](https://modelcontextprotocol.io/) - Open standard for connecting coding agents to external tools, data, and workflows. By Anthropic.
+- [MulmoTerminal](https://github.com/receptron/mulmoterminal) - Browser grid of live Claude Code / Codex sessions started with one `npx` command. Each cell is a real PTY with a colour-coded status, tmux-backed persistence, and a git worktree per cell. For Claude Code, needs-you is shown separately from done, read from the CLI's own hooks.
 
 ## Books
 - [AI-Assisted Programming](https://www.amazon.com/AI-Assisted-Programming-Planning-Testing-Deployment/dp/1098164563) - Using AI dev tools across the lifecycle: requirements, planning, design, coding, debugging, testing, deployment. By Tom Taulli (O'Reilly).
