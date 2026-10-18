@@ -6,6 +6,10 @@ starts on 2026-07-26; earlier history is in the git log.
 
 ## Unreleased
 
+### Swapped
+- [Redesigning Source Control at Anthropic](https://www.anthropic.com/engineering/redesigning-source-control) replaces AI-Driven Refactoring in Large-Scale Migrations (`https://medium.com/qonto-way/ai-driven-refactoring-in-large-scale-migrations-strategies-and-techniques-fcdb9b5116c6`) - A rigorously quantified account of Anthropic's own infrastructure response to agent-scale merge volume (2,500 to over 30,000 merges a day) outweighs a single-company migration anecdote hosted on Medium. (Case studies and in practice)
+- [How the Claude Code Team Does Code Review](https://claude.dev/blog/solving-code-review-at-anthropic/) replaces My LLM Codegen Workflow (`https://harper.blog/2025/02/16/my-llm-codegen-workflow-atm/`) - A fresh, metrics-backed account of how the team building Claude Code layers automated review to double merge throughput and cut reverts over 40 percent covers the review and verification facet this section lacked, while the spec, plan, execute workflow it displaces is already covered more rigorously by Advanced Context Engineering for Coding Agents. (Essays and writing)
+
 ### Fixed
 - [Claude Code Best Practices](https://code.claude.com/docs/en/best-practices) - Updated to the canonical URL after the page moved from anthropic.com/engineering to code.claude.com/docs. (Start here)
 
