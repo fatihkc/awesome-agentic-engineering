@@ -7,7 +7,11 @@ starts on 2026-07-26; earlier history is in the git log.
 ## Unreleased
 
 ### Swapped
+- [Pi](https://pi.dev) replaces DeepSeek Harness (`https://github.com/deepseek-ai/deepseek-harness`) - Pi is a mature, actively-maintained, provider-agnostic harness with real production adoption (it powers OpenClaw) from identifiable authors, while DeepSeek Harness remains in developer preview with breaking changes still expected, as flagged for a re-check in the 2026.08 release. (Coding agents and tools)
 - [Case Study: Refactoring at Scale with Agents](https://codescene.com/blog/case-study-refactoring-at-scale-with-agents) replaces AI-Driven Refactoring in Large-Scale Migrations (`https://medium.com/qonto-way/ai-driven-refactoring-in-large-scale-migrations-strategies-and-techniques-fcdb9b5116c6`) - A quantified, tool-backed refactor (a deterministic CodeHealth quality signal, frame-exact replay verification, and a direct Claude Opus vs Codex comparison) on a larger codebase outweighs a migration anecdote tied to an earlier model generation (Claude 3.5 Sonnet). (Case studies and in practice)
+
+### Fixed
+- [Claude Code Best Practices](https://code.claude.com/docs/en/best-practices) - Updated to the canonical URL after the page moved from anthropic.com/engineering to code.claude.com/docs. (Start here)
 
 ## 2026.08 (2026-08-31)
 

@@ -20,7 +20,7 @@ Agentic engineering is the discipline of building and shipping software by direc
 
 ## Start here
 A short on-ramp. Start with the framing in Foundations, learn to direct one agent well with the three guides here, then watch it run in production in Case studies and in practice.
-- [Claude Code Best Practices](https://www.anthropic.com/engineering/claude-code-best-practices) - How to actually direct a coding agent: workflows, context files, permissions, patterns.
+- [Claude Code Best Practices](https://code.claude.com/docs/en/best-practices) - How to actually direct a coding agent: workflows, context files, permissions, patterns.
 - [12-Factor Agents](https://github.com/humanlayer/12-factor-agents) - Twelve principles for reliable, production-grade LLM software.
 - [Designing agentic loops](https://simonwillison.net/2025/Sep/30/designing-agentic-loops/) - Loop engineering: goals, tools, and safety constraints so an agent can iterate toward a solution.
 
@@ -38,7 +38,7 @@ A small set of the seminal work underneath agentic coding. Background, not the w
 - [Cursor](https://cursor.com/) - AI code editor and agent for building software across desktop, CLI, and mobile. By Anysphere.
 - [Aider](https://github.com/Aider-AI/aider) - Open-source terminal pair-programming agent that edits code in a local Git repository using an LLM of choice.
 - [Cline](https://github.com/cline/cline) - Open-source autonomous coding agent available as an IDE extension, CLI, and SDK.
-- [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) - Open-source, plugin-everything agent harness built on the Cordis framework, in developer preview. By DeepSeek AI.
+- [Pi](https://pi.dev) - Minimal, provider-agnostic coding agent harness designed to be extended and adapted to a team's own workflows rather than boxed into one UI, now powering other agents such as OpenClaw. By Mario Zechner and Armin Ronacher (Earendil).
 - [OpenHands](https://github.com/OpenHands/OpenHands) - Open-source, self-hostable platform for running coding agents and automations.
 - [Model Context Protocol](https://modelcontextprotocol.io/) - Open standard for connecting coding agents to external tools, data, and workflows. By Anthropic.
 
