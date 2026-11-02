@@ -95,6 +95,7 @@ A small set of the seminal work underneath agentic coding. Background, not the w
 - [Harness Engineering: Leveraging Codex in an Agent-First World](https://openai.com/index/harness-engineering/) - A three-person team's five-month, roughly one-million-line, 1,500-pull-request internal product built entirely by Codex, with humans designing the harness instead of writing code. By Ryan Lopopolo (OpenAI).
 - [What's the Best Coding Agent? 2026 Edition](https://www.dolthub.com/blog/2026-08-05-best-coding-agent-2026/) - A three-month, 1,500-PR practitioner comparison of Claude, Codex, and Grok Build for shipping a production C database, ranking speed, cost, and quality tradeoffs. By Tim Sehn (DoltHub).
 - [How Anthropic Runs Large-Scale Code Migrations with Claude Code](https://claude.com/blog/ai-code-migration) - A rulebook, dependency map, and verification-loop methodology for porting production codebases, including Bun's million-line Zig-to-Rust migration. By Anthropic.
+- [Claude Code vs Codex, from People Who Run Both](https://agentcookbook.dev/claude-code-vs-codex) - Nine sourced workflows showing who builds, who reviews and how work is handed off between the two agents, each linked to the original post with prompts and approval rules. By Thomas (Agent Cookbook).
 
 ## Communities
 - [Cursor Community Forum](https://forum.cursor.com/) - Official forum for the Cursor coding agent: agent workflows, model comparisons, and rules configuration.
