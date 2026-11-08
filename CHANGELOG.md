@@ -6,6 +6,9 @@ starts on 2026-07-26; earlier history is in the git log.
 
 ## Unreleased
 
+### Swapped
+- [Redesigning Source Control at Anthropic](https://www.anthropic.com/engineering/redesigning-source-control) replaces What's the Best Coding Agent? 2026 Edition (`https://www.dolthub.com/blog/2026-08-05-best-coding-agent-2026/`) - A quantified production account of building agent-first infrastructure (daily merges scaling from 2,500 to over 30,000, a 200x cut in mirroring resource use) carries durable engineering lessons, while the DoltHub comparison is a point-in-time verdict on which agent is best that ages out as the title's own "2026 Edition" concedes. (Case studies and in practice)
+
 ## 2026.10 (2026-10-31)
 
 ### Swapped
