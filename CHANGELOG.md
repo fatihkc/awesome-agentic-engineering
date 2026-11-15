@@ -6,6 +6,9 @@ starts on 2026-07-26; earlier history is in the git log.
 
 ## Unreleased
 
+### Swapped
+- [AWS Emulator and the Engineer's Job When Agents Write the Code](https://www.allthingsdistributed.com/2026/11/aws-emulator-and-the-engineers-job-when-agents-write-the-code.html) replaces What's the Best Coding Agent? 2026 Edition (`https://www.dolthub.com/blog/2026-08-05-best-coding-agent-2026/`) - AWS's spec and test driven production methodology (fidelity tests, merge gates, and a four-month-to-two-hour verified rebuild) outweighs a point-in-time speed, cost, and quality comparison across specific model versions that goes stale as new agent releases turn over. (Case studies and in practice)
+
 ## 2026.10 (2026-10-31)
 
 ### Swapped
